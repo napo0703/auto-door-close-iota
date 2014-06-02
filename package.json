@@ -1,0 +1,21 @@
+{
+  "name": "auto-door-close-iota",
+  "version": "0.0.1",
+  "description": "auto close iota411 door",
+  "main": "auto-door-close-iota.coffee",
+  "scripts": {
+    "start": "coffee auto-door-close-iota.coffee"
+  },
+  "keywords": [
+    "linda"
+  ],
+  "author": "Naoaki Yamada <napo0703@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "linda-socket.io": "~0.2.0",
+    "coffee-script": "~1.7.1",
+    "socket.io-client": "~0.9.16",
+    "request": "~2.34.0",
+    "optimist": "~0.6.1"
+  }
+}
